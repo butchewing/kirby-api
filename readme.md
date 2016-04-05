@@ -27,9 +27,13 @@ The response from an endpoint will be JSON, and contain multiple resources.
 By default, we are pulling from several resources within each endpoint.
 
  a. Page - an array of the page data
+
  b. Images - an array of the images on the page
+
  c. Documents - an array of the documents on the page
+
  d. Children - an array of the child pages
+
  e. Grand Children - an array of the grand child pages
 
 You can choose to also get the pages siblings by uncommenting that line on kirby-api.php.
