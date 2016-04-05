@@ -12,6 +12,7 @@ Each HTTP request consists of an HTTP Method and an endpoint. Throughout the doc
 
 ```
 {METHOD} http://yourkirbywebsite.tld/api/v1/{endpoint}
+```
 
 1. Method
 At this point we only accept the GET method.
@@ -27,7 +28,7 @@ Example response
 {"page":{"id":"home","title":"Home","parent":"","dirname":"1-home","diruri":"1-home","url":"http:\/\/localhost:8888","contentUrl":"http:\/\/localhost:8888\/content\/1-home","tinyUrl":"http:\/\/localhost:8888\/x\/vl2sb4","depth":1,"uri":"home","root":...
 ```
 
-3. Resources
+4. Resources
 By default, we are pulling from several resources within each endpoint.
 
 a. Page - an array of the page data
