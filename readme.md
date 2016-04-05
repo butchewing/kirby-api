@@ -23,6 +23,11 @@ An API endpoint is a path that uniquely identifies a resource. To make an HTTP r
 3. Response
 The response from an endpoint will be JSON, and contain multiple resources.
 
+  Example response
+  ```
+  {"page":{"id":"home","title":"Home","parent":"","dirname":"1-home","diruri":"1-home","url":"http:\/\/localhost:8888","contentUrl":"http:\/\/localhost:8888\/content\/1-home","tinyUrl":"http:\/\/localhost:8888\/x\/vl2sb4","depth":1,"uri":"home","root":...
+  ```
+
 4. Resources
 By default, we are pulling from several resources within each endpoint.
 
@@ -38,10 +43,6 @@ By default, we are pulling from several resources within each endpoint.
 
 You can choose to also get the pages siblings by uncommenting that line on kirby-api.php.
 
-Example response
-```
-{"page":{"id":"home","title":"Home","parent":"","dirname":"1-home","diruri":"1-home","url":"http:\/\/localhost:8888","contentUrl":"http:\/\/localhost:8888\/content\/1-home","tinyUrl":"http:\/\/localhost:8888\/x\/vl2sb4","depth":1,"uri":"home","root":...
-```
 
 ## Author
 
