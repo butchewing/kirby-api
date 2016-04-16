@@ -46,9 +46,11 @@ Each HTTP request consists of an HTTP Method and an endpoint. Throughout the doc
 
   c. Documents - an array of the documents on the page
 
-  d. Children - an array of the child pages
+  d. (Siblings - an array of the siblings of the page) - Commented out
 
-  e. Grand Children - an array of the grand child pages
+  e. Children - an array of the child pages and their images
+
+  f. (Grand Children - an array of the grand child pages) - Commented out
 
   You can choose to also get the pages siblings by uncommenting that line on kirby-api.php.
 
