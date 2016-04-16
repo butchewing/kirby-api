@@ -55,7 +55,7 @@ Each HTTP request consists of an HTTP Method and an endpoint. Throughout the doc
 
 ## Contributions
 
-Please fork this repository an make it better.
+Please fork this repository and make it better.
 
 
 ## Change Log
