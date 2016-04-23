@@ -2,7 +2,7 @@
 /*
  * Kirby Basic JSON REST API Plugin
  * A plugin for Kirby - https://getkirby.com/
- * Version: 0.0.2
+ * Version: 0.0.3
  *
  * Author: Butch Ewing @butchewing
 */
@@ -27,8 +27,10 @@ kirby()->routes(array(
       //$api['documents']     = page($collection)->documents()->toArray();
       $documents            = page($collection)->documents();
       $docs                 = array();
-      foreach($documents as $item) {
-        $docs[] = item;
+      foreach($documents as $doc) {
+        $docs[]['url']      = $doc->url();
+        $docs[]['filename'] = $doc->filename();
+        $docs[]['niceSize'] = $doc->niceSize();
       }
       $api['documents']     = $docs;
 

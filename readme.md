@@ -1,6 +1,6 @@
 # Kirby Basic JSON REST API Plugin
 
-Version: 0.0.2
+Version: 0.0.3
 
 This Kirby plugin provides an easy way to add a very basic JSON REST API to your site. [Download the plugin](https://github.com/butchewing/kirby-api/archive/master.zip) from Github and put it into /site/plugins. It will automatically be loaded by Kirby.
 
