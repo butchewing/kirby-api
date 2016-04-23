@@ -28,9 +28,11 @@ kirby()->routes(array(
       $documents            = page($collection)->documents();
       $docs                 = array();
       foreach($documents as $doc) {
-        $docs[]['url']      = $doc->url();
-        $docs[]['filename'] = $doc->filename();
-        $docs[]['niceSize'] = $doc->niceSize();
+        $docs[] = array(
+          'url' => $doc->url(),
+          'filename' => $doc->filename(),
+          'niceSize' => $doc->niceSize()
+        );
       }
       $api['documents']     = $docs;
 
